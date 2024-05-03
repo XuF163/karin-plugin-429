@@ -11,7 +11,7 @@ const app = App.init({
   priority: 5000
 })
 
-export class RussiaRoundPlatePlugin extends plugin {
+export class PaimonWantSleep extends plugin {
   constructor () {
     super({
       name: '',
