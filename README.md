@@ -12,6 +12,7 @@ git clone https://github.com/XuF163/karin-plugin-paimon.git ./plugins/karin-plug
 ```bash
 pnpm install --filter=karin-plugin-paimon
 ```  
+
 ### To Do  
 - [x] 被动骗赞
 - [x] 简易早晚安  
