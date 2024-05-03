@@ -35,7 +35,7 @@ export class example extends plugin {
         lastExecutionTime = null;
       }
 
-      // 如果上次执行时间不是今天，则执行签到操作
+      // 如果上次执行时间不是今天，则执行骗赞操作
       if (!lastExecutionTime || new Date(lastExecutionTime).getTime() !== currentTime.getTime()) {
         // 更新上次执行时间为当前时间
         await fs.writeFile(jsonFilePath, JSON.stringify(currentTime), 'utf-8');
@@ -44,7 +44,8 @@ export class example extends plugin {
         await this.reply("赞我");
       } else {
         // 如果上次执行时间是今天，则不返回任何内容
-        return;
+        await this.reply(["已给你点赞114514次",segment.image('https://img.kookapp.cn/assets/2024-02/XyyBB1A6rT08807u.jpg')
+)]);
       }
     } catch (error) {
       console.error("发生错误：", error);
