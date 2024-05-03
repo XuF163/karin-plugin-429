@@ -2,7 +2,7 @@
 import { promises as fs } from 'fs';
 
 
-const jsonFilePath = '../data/last_sign_in_time.json';
+const jsonFilePath = '../data/last_sign_in_time.json';//非标准存储格式，以后再改
 export class example extends plugin {
   constructor () {
     super({
@@ -44,8 +44,8 @@ export class example extends plugin {
         await this.reply("赞我");
       } else {
         // 如果上次执行时间是今天，则不返回任何内容
-        await this.reply(["已给你点赞114514次",segment.image('https://img.kookapp.cn/assets/2024-02/XyyBB1A6rT08807u.jpg')
-)]);
+        await this.reply(["已给你点赞114514次",segment.image('https://img.kookapp.cn/assets/2024-02/XyyBB1A6rT08807u.jpg')])
+
       }
     } catch (error) {
       console.error("发生错误：", error);
