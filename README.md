@@ -14,7 +14,7 @@ pnpm install --filter=karin-plugin-paimon
 ```    
 
 
-## To Do  
+## To Do    
 - [x] 被动骗赞
 - [x] 简易早晚安  
 - [ ] 原神月历  
