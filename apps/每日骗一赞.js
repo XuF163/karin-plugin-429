@@ -1,6 +1,7 @@
 ﻿import { plugin } from '#Karin'
 import { promises as fs } from 'fs';
 
+
 const jsonFilePath = '../data/last_sign_in_time.json';
 export class example extends plugin {
   constructor () {
