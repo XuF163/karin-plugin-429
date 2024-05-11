@@ -3,11 +3,13 @@ import json
 import os
 import time
 import yaml
-# 创建 Client 对象，连接到 qBittorrent 的 Web API
-qb = Client("http://192.168.1.75:8080/")
 #读取账号密码配置
 with open('../config/config.yaml', 'r') as f:
     config = yaml.safe_load(f)
+# 创建 Client 对象，连接到 qBittorrent 的 Web API
+qb = Client(config['server'])
+
+
 # 登录 qBittorrent
 qb.login(config['username'], config['passwd'])
 
