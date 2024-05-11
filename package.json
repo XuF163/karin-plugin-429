@@ -4,6 +4,7 @@
   "author": "429",
   "type": "module",
   "dependencies": {
+    "mqtt": "^5.5.5"
   },
   "imports": {
     "#Karin": "./lib/index.js"
