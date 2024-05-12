@@ -4,6 +4,7 @@
   "author": "429",
   "type": "module",
   "dependencies": {
+    "aedes": "^0.51.1",
     "mqtt": "^5.5.5"
   },
   "imports": {

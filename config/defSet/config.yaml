@@ -11,3 +11,7 @@ clientId: your_client_id
 mqtt_username: your_username
 mqtt_passwd: your_password
 mqtt_reconnectPeriod: 1000
+
+#卡路里识别
+API_Key: your_api_key
+Secret_Key: your_secret_key
