@@ -22,7 +22,3 @@ if (!configFileExists) {
 export { dirPath }
 
 logger.info(basename + ' 插件 0.0.1 初始化~')
-
-
-
-
